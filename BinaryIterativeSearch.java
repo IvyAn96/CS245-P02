@@ -19,7 +19,7 @@ public class BinaryIterativeSearch implements Practice2Search {
 				return mid;
 			}
 			if(arr[mid] < target){
-				min = max + 1;
+				min = mid + 1;
 			}else {
 				max = mid - 1;
 			}
