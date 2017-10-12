@@ -24,7 +24,7 @@ public class BinaryRecursiveSearch implements Practice2Search {
 						return mid;
 					}
 					  if(arr[mid] < target  ){
-						searchH(arr, target, mid + 1 ,max);
+						return searchH(arr, target, mid + 1 ,max);
 					}
 					  else{
 				      return searchH(arr, target, min , mid - 1);
